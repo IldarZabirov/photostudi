@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumi Sky - фотостудия. Фотосессии в Екатеринбурге</title>
+    <link rel="shortcut icon" href="img/index/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/06d986b207.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+<!-- шапка -->
+
+
+<header class="header">
+
+    <div class="header__logo">
+
+        <a href="index.html"><img class="logo-image" src="img/index/logo.svg" alt="логотип Lumi Sky">
+        </a>
+
+    </div>
+
+    <div class="header__address">
+
+        <span class="address-text">Екатеринбург, пр. Ленина 49</span>
+
+    </div>
+
+    <div class="header__call">
+
+        <span class="call-text">Связаться</span>
+
+        <a href="tel:89024097006" class="call-icon">
+            <img src="img/index/gold-phone.svg" alt="89024097006">
+        </a>
+
+    </div>
+
+</header>
+
+
+<!-- меню -->
+
+
+<nav class="nav">
+
+    <ul class="menu">
+
+        <li class="menu-item"><a href="index.html" class="menu-link ">Главная</a></li>
+        <li class="menu-item"><a href="index.html#services" class="menu-link">Услуги</a></li>
+        <li class="menu-item"><a href="halls.html" class="menu-link">Залы</a></li>
+        <li class="menu-item"><a href="portfolio.html" class="menu-link active">Портфолио</a></li>
+        <li class="menu-item"><a href="contacts.html" class="menu-link">Контакты</a></li>
+        <li class="menu-item"><a href="booking.html" class="menu-link btn">Бронировать</a></li>
+
+    </ul>
+
+</nav>
+
+<!-- основной контент -->
+
+<main>
+
+    <section class="photo">
+
+        <h2 class="section-title">Портфолио</h2>
+
+        <div class="photo__filter">
+
+            <input class="photo__radio" type="radio" name="categories" id="all" value="all" checked>
+
+            <input class="photo__radio" type="radio" name="categories" id="family" value="family">
+
+            <input class="photo__radio" type="radio" name="categories" id="friend" value="friend">
+
+            <input class="photo__radio" type="radio" name="categories" id="love" value="love">
+
+            <input class="photo__radio" type="radio" name="categories" id="person" value="person">
+
+            <input class="photo__radio" type="radio" name="categories" id="baby" value="baby">
+
+            <input class="photo__radio" type="radio" name="categories" id="pet" value="pet">
+
+
+            <ol class="photo__list">
+
+                <li class="photo__item"><label class="photo__label" for="all">Все фотографии</label></li>
+
+                <li class="photo__item"><label class="photo__label" for="family">Семейное</label></li>
+
+                <li class="photo__item"><label class="photo__label" for="friend">Друзья</label></li>
+
+                <li class="photo__item"><label class="photo__label" for="love">Love Story</label></li>
+                
+                <li class="photo__item"><label class="photo__label" for="person">Персональные</label></li>
+                
+                <li class="photo__item"><label class="photo__label" for="baby">В ожидании чуда</label></li>
+
+                <li class="photo__item"><label class="photo__label" for="pet">С питомцами </label></li>
+
+            </ol>
+
+            <ol class="filter-photo">
+                <li class="photo-item" data-category="family">
+                    <img class="photo-img" src="img/portfolio/fam1.jpg" alt="family">
+                  </li>
+                   <li class="photo-item" data-category="friend">
+                    <img class="photo-img" src="img/portfolio/frend2.jpeg" alt="friend">
+                  </li>
+                  <li class="photo-item" data-category="family">
+                    <img class="photo-img" src="img/portfolio/fam2.JPG" alt="family">
+                  </li>
+                  <li class="photo-item" data-category="family">
+                    <img class="photo-img" src="img/portfolio/fam3.JPG" alt="family">
+                  </li>
+                  <li class="photo-item" data-category="friend">
+                    <img class="photo-img" src="img/portfolio/frend1.jpeg" alt="friend">
+                  </li>
+                  <li class="photo-item" data-category="friend">
+                    <img class="photo-img" src="img/portfolio/frend3.jpg" alt="friend">
+                  </li>
+                  <li class="photo-item" data-category="love">
+                    <img class="photo-img" src="img/portfolio/love1.jpg" alt="love">
+                  </li>
+                  <li class="photo-item" data-category="love">
+                    <img class="photo-img" src="img/portfolio/love2.jpeg" alt="love">
+                  </li>
+                  <li class="photo-item" data-category="person">
+                    <img class="photo-img" src="img/portfolio/pers3.JPG" alt="person">
+                  </li>
+                  <li class="photo-item" data-category="love">
+                    <img class="photo-img" src="img/portfolio/love3.jpg" alt="love">
+                  </li>
+                  <li class="photo-item" data-category="person">
+                    <img class="photo-img" src="img/portfolio/pers1.jpg" alt="person">
+                  </li>
+                  <li class="photo-item" data-category="person">
+                    <img class="photo-img" src="img/portfolio/pers2.jpg" alt="person">
+                  </li>
+                  <li class="photo-item" data-category="pet">
+                    <img class="photo-img" src="img/portfolio/pet5.jpg" alt="pet">
+                  </li>
+                    <li class="photo-item" data-category="baby">
+                    <img class="photo-img" src="img/portfolio/preg3.jpg" alt="baby">
+                  </li>              
+                  <li class="photo-item" data-category="pet">
+                    <img class="photo-img" src="img/portfolio/pet4.jpg" alt="pet">
+                  </li>
+                  <li class="photo-item" data-category="baby">
+                    <img class="photo-img" src="img/portfolio/preg2.jpg" alt="baby">
+                  </li>
+                
+                  <li class="photo-item" data-category="pet">
+                    <img class="photo-img" src="img/portfolio/pet1.jpeg" alt="friend">
+                  </li>
+                  <li class="photo-item" data-category="pet">
+                    <img class="photo-img" src="img/portfolio/pet2.jpeg" alt="pet">
+                  </li>
+                  <li class="photo-item" data-category="pet">
+                    <img class="photo-img" src="img/portfolio/pet3.jpg" alt="pet">
+                  </li>
+                 <li class="photo-item" data-category="baby">
+                    <img class="photo-img" src="img/portfolio/preg1.jpeg" alt="baby">
+                  </li> 
+            </ol>
+
+        </div>
+
+
+
+        <div class="photo__managed-slider">
+
+
+          <div class="managed-slider__inner">
+
+            <input class="managed-slider__input" type="radio" name="r" id="r1" checked> 
+            <input class="managed-slider__input" type="radio" name="r" id="r2">
+            <input class="managed-slider__input" type="radio" name="r" id="r3">
+            <input class="managed-slider__input" type="radio" name="r" id="r4">
+
+            <div class="managed-slider__slider picture-one">
+
+              <img src="img/portfolio/slider/1.jpg" alt="woman">
+
+            </div>
+
+            <div class="managed-slider__slider">
+
+              <img src="img/portfolio/slider/2.jpg" alt="woman">
+
+            </div>
+
+            <div class="managed-slider__slider">
+
+              <img src="img/portfolio/slider/3.jpeg" alt="woman">
+
+            </div>
+
+            <div class="managed-slider__slider">
+
+              <img src="img/portfolio/slider/4.png" alt="woman">
+
+            </div>
+
+          </div>
+
+          <div class="managed-slider__controls">
+
+            <label class="contols__label" for="r1"></label>
+
+            <label class="contols__label" for="r2"></label>
+
+            <label class="contols__label" for="r3"></label>
+
+            <label class="contols__label" for="r4"></label>
+
+          </div>
+
+
+        </div>
+
+
+        <h3 class="section__subtitle">Как подготовится к фотосессии</h3>
+
+        <ul class="photo__accordion-list horizontal">
+
+          <li class="accordion__item"><img class="accordion__img" src="img/portfolio/check/2.JPG" alt=""></li>
+
+          <li class="accordion__item"><img class="accordion__img" src="img/portfolio/check/3.JPG" alt=""></li>
+
+          <li class="accordion__item"><img class="accordion__img" src="img/portfolio/check/4.JPG" alt=""></li>
+
+          <li class="accordion__item"><img class="accordion__img" src="img/portfolio/check/5.JPG" alt=""></li>
+
+          <li class="accordion__item"><img class="accordion__img" src="img/portfolio/check/6.JPG" alt=""></li>
+
+          <li class="accordion__item"><img class="accordion__img" src="img/portfolio/check/7.JPG" alt=""></li>
+
+          <li class="accordion__item" ><img class="accordion__img" src="img/portfolio/check/8.JPG" alt=""></li>
+
+          <li class="accordion__item"><img class="accordion__img" src="img/portfolio/check/9.JPG" alt=""></li>
+
+        </ul>
+
+
+    </section>
+
+</main>
+
+<!-- футер -->
+
+<footer class="footer">
+
+
+    <div class="footer__logo">
+
+        <img src="img/index/f-logo.png" alt="логотип">
+
+    </div>
+
+
+    <div class="footer__link">
+
+        <ul class="footer-link__list">
+
+            <li class="footer-link__item"><a href="portfolio.html" class="item-link">Портфолио</a></li>
+
+            <li class="footer-link__item"><a href="halls.html" class="item-link">Наши залы</a></li>
+
+            <li class="footer-link__item"><a href="booking.html" class="item-link">Бронирование</a></li>
+
+        </ul>
+
+    </div>
+
+
+    <div class="footer__social">
+
+        <p class="footer-social__title">Мы в соцсетях:</p>
+
+        <a href="#" class="footer-social__link">
+
+            <i class="fa-brands fa-vk"></i>
+
+        </a>
+
+        <a href="#" class="footer-social__link">
+
+            <i class="fa-brands fa-telegram"></i>
+
+        </a>
+
+        <a href="#" class="footer-social__link">
+
+            <i class="fa-brands fa-pinterest"></i>
+
+        </a>
+
+    </div>
+
+
+    <div class="footer__contacts">
+
+        <ul class="footer-contacts__list">
+
+            <li class="footer-contacts__item"><i class="fa-solid fa-map-location-dot"></i>Екатеринбург, пр. Ленина, 49</li>
+
+            <li class="footer-contacts__item"><i class="fa-solid fa-clock"></i>9:00 - 24:00 ежедневно</li>
+
+            <li class="footer-contacts__item"><i class="fa-solid fa-mobile"></i>Залы: 8-902-409-70-06</li>
+
+            <li class="footer-contacts__item"><i class="fa-solid fa-phone-flip"></i>Фотосессии: 8-922-157-32-52</li>
+
+        </ul>
+
+    </div>
+
+    
+    <button onclick="topFunction()" id="footer__button_up">
+
+        <img src="img/index/up.png" alt="кнопка" title="Наверх" >
+
+    </button>
+   
+
+</footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
